@@ -1,0 +1,26 @@
+@media print {
+    
+    @page {
+        margin:.25cm;    
+    }
+    
+    body {
+        width: 1024px;
+    }
+    
+    header  {
+        display: none;
+    }
+    
+    .section form {
+        display: none;
+    }
+    
+    .group {
+        display: none;
+    }
+    
+    .tftable {
+        font-size: 02px;
+    }
+}
